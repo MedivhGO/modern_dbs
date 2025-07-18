@@ -9,8 +9,8 @@ find_package(Git REQUIRED)
 ExternalProject_Add(
     rapidjson_src
     PREFIX "vendor/rapidjson"
-    GIT_REPOSITORY "https://github.com/tencent/rapidjson"
-    GIT_TAG v1.1.0
+    GIT_REPOSITORY "https://gitee.com/introcs/rapidjson.git"
+    GIT_TAG v1.1.1
     TIMEOUT 10
     CONFIGURE_COMMAND ""
     BUILD_COMMAND ""
