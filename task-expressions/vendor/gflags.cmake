@@ -9,7 +9,7 @@ find_package(Git REQUIRED)
 ExternalProject_Add(
     gflags_src
     PREFIX "vendor/gflags"
-    GIT_REPOSITORY "https://github.com/gflags/gflags.git"
+    GIT_REPOSITORY "https://gitee.com/introcs/gflags.git"
     GIT_TAG f8a0efe03aa69b3336d8e228b37d4ccb17324b88
     TIMEOUT 10
     CMAKE_ARGS

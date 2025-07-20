@@ -9,7 +9,7 @@ find_package(Git REQUIRED)
 ExternalProject_Add(
     benchmark_src
     PREFIX "vendor/benchmark"
-    GIT_REPOSITORY "https://github.com/google/benchmark.git"
+    GIT_REPOSITORY "https://gitee.com/introcs/benchmark.git"
     GIT_TAG 336bb8db986cc52cdf0cefa0a7378b9567d1afee
     TIMEOUT 10
     CMAKE_ARGS
